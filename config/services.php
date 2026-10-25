@@ -40,4 +40,10 @@ return [
         'client_secret' => env('DMS_CLIENT_SECRET'),
     ],
 
+    'dms_api' => [
+        'url' => env('DMS_API_URL'),
+        'email' => env('DMS_API_EMAIL'),
+        'password' => env('DMS_API_PASSWORD'),
+    ],
+
 ];
